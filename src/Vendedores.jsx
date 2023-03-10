@@ -25,7 +25,7 @@ export default function Vendedores() {
       <div className="cards">
         <Card
           style={{ width: "100%", padding: 10 }}
-          header={<CardHeader titleText="Mis Servicios" />}
+          header={<CardHeader titleText="Indicadores" />}
         >
           <div
             style={{
@@ -45,8 +45,8 @@ export default function Vendedores() {
               }}
             >
               <div className="content-card">
-                <Title level="H4">Mi Carrera</Title>
-                <p>Da un vistazo a tus avances</p>
+                <Title level="H4">S/. 2.500 de S/.5.000</Title>
+                <p>Rentabilidad diaria sobre ventas</p>
                 <Icon name="process" design="Information" />
               </div>
             </Card>
@@ -86,14 +86,14 @@ export default function Vendedores() {
               <div className="content-card">
                 <Text
                   style={{
-                    fontSize: 20,
+                    fontSize: 30,
                     fontWeight: "bold",
                     textAlign: "center",
                   }}
                 >
-                  Perfil de equipo
+                  +16
                 </Text>
-                <p>Perfil de empleados</p>
+                <p>Clientes Nuevos</p>
                 <Icon name="personnel-view" design="Information" />
               </div>
             </Card>
@@ -112,9 +112,9 @@ export default function Vendedores() {
                     textAlign: "center",
                   }}
                 >
-                  Gestor de rendimiento
+                  S/.450.000 de S/.650.000
                 </Text>
-                <p>Accede al monitoreo de rendimiento</p>
+                <p>Cantidad cobrada en el mes</p>
                 <Icon name="performance" design="Information" />
               </div>
             </Card>
@@ -133,9 +133,9 @@ export default function Vendedores() {
                     textAlign: "center",
                   }}
                 >
-                  Mis metas - Mobile
+                  350 de 500
                 </Text>
-                <p>Da un vistazo a tus avances</p>
+                <p>Pedidos por cliente</p>
                 <Icon name="goalseek" design="Information" />
               </div>
             </Card>

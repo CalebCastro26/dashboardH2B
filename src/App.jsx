@@ -14,6 +14,7 @@ export default function App() {
         <Tab text="Clientes">
           <Clientes />
         </Tab>
+        <Tab text="Tabla"></Tab>
       </TabContainer>
     </div>
   );
