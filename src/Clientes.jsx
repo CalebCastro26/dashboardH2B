@@ -73,6 +73,14 @@ export default function Clientes() {
         >
           <List>
             <StandardListItem
+              image="https://sap.github.io/ui5-webcomponents/main/assets/images/avatars/man_avatar_5.png"
+              description="YZ INC"
+              additionalText="$ 3000"
+              additionalTextState="Error"
+            >
+              Juan Castro
+            </StandardListItem>
+            <StandardListItem
               image="https://sap.github.io/ui5-webcomponents/main/assets/images/avatars/woman_avatar_3.png"
               description="ABC SAC"
               additionalText="S./ 5000"
@@ -89,12 +97,12 @@ export default function Clientes() {
               Leonardo Sanchez
             </StandardListItem>
             <StandardListItem
-              image="https://sap.github.io/ui5-webcomponents/main/assets/images/avatars/man_avatar_5.png"
-              description="YZ INC"
-              additionalText="$ 3000"
+              image="https://sap.github.io/ui5-webcomponents/main/assets/images/avatars/man_avatar_4.png"
+              description="ING SA"
+              additionalText="$ 1000"
               additionalTextState="Error"
             >
-              Juan Castro
+              Eduardo Paredes
             </StandardListItem>
             <StandardListItem
               image="https://sap.github.io/ui5-webcomponents/main/assets/images/avatars/woman_avatar_4.png"
@@ -103,14 +111,6 @@ export default function Clientes() {
               additionalTextState="Error"
             >
               Romina Salas
-            </StandardListItem>
-            <StandardListItem
-              image="https://sap.github.io/ui5-webcomponents/main/assets/images/avatars/man_avatar_4.png"
-              description="ING SA"
-              additionalText="$ 1000"
-              additionalTextState="Error"
-            >
-              Eduardo Paredes
             </StandardListItem>
           </List>
         </Card>
@@ -206,26 +206,20 @@ export default function Clientes() {
             measures={[
               {
                 accessor: "users",
-                formatter: function ka() {},
-                label: "Users",
-                lineConfig: {
-                  type: "linear",
-                },
+                label: "Lacteos",
+                hideDataLabel: true,
               },
               {
                 accessor: "sessions",
-                formatter: function ka() {},
                 hideDataLabel: true,
-                label: "Active Sessions",
+                label: "Abarrotes",
               },
               {
                 accessor: "volume",
-                label: "Vol.",
+                label: "Gaseosas",
+                hideDataLabel: true,
               },
             ]}
-            onClick={function ka() {}}
-            onDataPointClick={function ka() {}}
-            onLegendClick={function ka() {}}
           />
         </Card>
       </div>
